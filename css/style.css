@@ -1,0 +1,129 @@
+nav {
+        background-color: #429cbc;
+        }
+        nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        }
+        nav li {
+        margin-right: 20px;
+        }
+        nav a {
+        color: black;
+        text-decoration: none;
+        padding: 14px 20px;
+        display: block;
+        }
+        /* Hover effect */
+        nav a:hover {
+        background-color: #17c3b2;
+        }
+        /* Active (current page) link */
+        nav a.active {
+        background-color: #ffcb77;  /* a green highlight */
+            font-weight: bold;  }       /* make it stand out */
+
+body {
+    background-color: #faf3dd;
+}
+
+
+.blue{
+    color: #429cbc;
+}
+.teal{
+    color: #17c3b2;
+}
+.orange{
+   color: #ffcb77; 
+    
+}
+
+
+
+
+
+
+
+
+.grid-container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: auto auto auto auto auto auto;
+}
+
+.grid-item {
+    text-align: center;
+}
+
+.nav-menu {
+    grid-row: 1;
+    grid-column: 1 / span 6;
+}
+
+.text {
+    grid-row: 3;
+    grid-column: 2 / span 4;
+    text-align: center;
+}
+
+.heading {
+    grid-row: 2;
+    grid-column: 2 / span 4;
+}
+
+
+.carousel {
+    grid-row: 4;
+    grid-column: 2 / span 4;
+    width: 1000px;
+    justify-self: center;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    width: 1000px;
+}
+
+
+
+
+
+
+
+
+
+
+.big {
+    font-family: "urca", sans-serif;
+font-weight: 800;
+font-style: normal;
+}
+
+.medium {
+    font-family: "urca", sans-serif;
+font-weight: 500;
+font-style: normal;
+}
+
+.small {
+    font-family: "urca", sans-serif;
+font-weight: 100;
+font-style: normal;
+}
+
+.center {
+    text-align: center;
+}
+
+.image {
+    width: 300px;
+}
+
+.box {
+    background-color: #ffcb77;
+    padding: 30px;
+    margin: 10px;
+}

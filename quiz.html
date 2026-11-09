@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>56th Street Market</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+    </head>
+<body>
+    <div class="grid-container">
+        <nav  class="nav-menu">
+            <ul>
+                <li><a class="small" href="index.html">Home</a></li>
+                <li><a class="small" href="foods.html">Things we offer</a></li>
+                <li><a class="small" href="contact.html">Contact</a></li>
+                <li><a class="small active" href="quiz.html">Quiz</a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+     <div class="grid-item heading">
+        <h1 class="big">So do you think you know everything about us?</h1>
+        <h2 class="medium">Play this game to find out!</h2>
+    </div>
+
+    <h2>Introductions</h2>
+    <form action="" id="name-form">
+        <label for="fname">First name</label><br />
+        <input type="text" name="fname" id="fname"><br />
+    </form><br />
+
+    <input type="button" value="SUBMIT" onclick="greet();">
+    <p id="greet" style="font-size: x-large;">Welcome</p>
+        
+
+        <h2>Warm up trivia question</h2>
+        <p>What is the only food that cannot go bad?</p>
+        <p id="trivia1-answer"></p>
+        <form action="">
+            <input type="radio" name="trivia1" id="chocolate">
+            <label for="chocolate">Dark chocolate</label><br />
+            <input type="radio" name="trivia1" id="tuna">
+            <label for="tuna">Tuna</label><br />
+            <input type="radio" name="trivia1" id="honey">
+            <label for="honey">Honey</label><br />
+
+        </form>
+
+        <input type="button" value="SUBMIT" onclick="trivia1();">
+<p>Two truths and a lie</p>
+<p id="twotruths"></p>
+  <form action="">
+            <input type="radio" name="onelie" id="brother">
+            <label for="brother">I have a brother</label><br />
+            <input type="radio" name="onelie" id="cat">
+            <label for="cat">I have three cats</label><br />
+            <input type="radio" name="onelie" id="sister">
+            <label for="sister">I have a sister</label><br />
+       
+        </form>
+         <input type="button" value="SUBMIT" onclick="onelie();">
+
+         <p>Do you want to play again</p>
+<p id="twotruths2"></p>
+  <form action="">
+            <input type="radio" name="onelie2" id="purple">
+            <label for="purple">My favorite color is purple</label><br />
+            <input type="radio" name="onelie2" id="tate">
+            <label for="tate">My favorite singer in Tate McRae.</label><br />
+            <input type="radio" name="onelie2" id="burger">
+            <label for="burger">My favorite food is burgers</label><br />
+       
+        </form>
+         <input type="button" value="SUBMIT" onclick="onelie2();">
+
+    <script src="javascript/truth.js"></script>     
+</body>
+</html>
