@@ -94,7 +94,9 @@ body {
 
 
 
-
+.test1 {
+    border-radius: 20px;
+}
 
 
 
@@ -128,6 +130,7 @@ font-style: normal;
     background-color: #ffcb77;
     padding: 30px;
     margin: 10px;
+    border-radius: 20px;
 }
 
 .table-center {
@@ -145,4 +148,10 @@ font-style: normal;
     background-color: #429cbc;
     border-color: #429cbc;
     color: black;
+}
+
+
+div.box {
+    border-radius: 30px;
+    background-color: #ffcb77;
 }
