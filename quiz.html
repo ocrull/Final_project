@@ -39,46 +39,49 @@
     <p id="greet" style="font-size: x-large;">Welcome</p>
         
 
-        <h2>Warm up trivia question</h2>
-        <p>What is the only food that cannot go bad?</p>
+        <h3 class="big">Question 1</h3>
+        <h4 class="medium">What is our address?</h4>
         <p id="trivia1-answer"></p>
         <form action="">
-            <input type="radio" name="trivia1" id="chocolate">
-            <label for="chocolate">Dark chocolate</label><br />
-            <input type="radio" name="trivia1" id="tuna">
-            <label for="tuna">Tuna</label><br />
-            <input type="radio" name="trivia1" id="honey">
-            <label for="honey">Honey</label><br />
+            <input type="radio" name="trivia1" id="3076">
+            <label for="2201">3076 N 15th St, Seattle, WA 98103</label><br />
+            <input type="radio" name="trivia1" id="5391">
+            <label for="5391">5391 N 33rd St, Seattle, WA 98103</label><br />
+            <input type="radio" name="trivia1" id="2201">
+            <label for="2201">2201 N 56th St, Seattle, WA 98103</label><br />
 
         </form>
 
-        <input type="button" value="SUBMIT" onclick="trivia1();">
-<p>Two truths and a lie</p>
-<p id="twotruths"></p>
+        <input type="button" value="SUBMIT" onclick="question1();">
+
+<h3 class="big">Question 2</h3>
+<h4 class="medium">What are our hours on Sunday?</h4>
+<p id="hours"></p>
   <form action="">
-            <input type="radio" name="onelie" id="brother">
-            <label for="brother">I have a brother</label><br />
-            <input type="radio" name="onelie" id="cat">
-            <label for="cat">I have three cats</label><br />
-            <input type="radio" name="onelie" id="sister">
-            <label for="sister">I have a sister</label><br />
+            <input type="radio" name="onelie" id="nine">
+            <label for="nine">9:00am-7:00pm</label><br />
+            <input type="radio" name="onelie" id="ten">
+            <label for="ten">10:00am-7:00pm</label><br />
+            <input type="radio" name="onelie" id="eight">
+            <label for="eight">8:00am-8:00pm</label><br />
        
         </form>
-         <input type="button" value="SUBMIT" onclick="onelie();">
+         <input type="button" value="SUBMIT" onclick="hours();">
 
-         <p>Do you want to play again</p>
-<p id="twotruths2"></p>
+    <h3 class="big">Question 3</h3>
+    <h4 class="medium">Do we offer home items?</h4>
+
+<p id="home"></p>
   <form action="">
-            <input type="radio" name="onelie2" id="purple">
-            <label for="purple">My favorite color is purple</label><br />
-            <input type="radio" name="onelie2" id="tate">
-            <label for="tate">My favorite singer in Tate McRae.</label><br />
-            <input type="radio" name="onelie2" id="burger">
-            <label for="burger">My favorite food is burgers</label><br />
+            <input type="radio" name="item" id="yes">
+            <label for="purple">Yes</label><br />
+            <input type="radio" name="items" id="no">
+            <label for="tate">No</label><br />
+            
        
         </form>
          <input type="button" value="SUBMIT" onclick="onelie2();">
 
-    <script src="javascript/truth.js"></script>     
+    <script src="javascript/game.js"></script>     
 </body>
 </html>

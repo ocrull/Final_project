@@ -67,6 +67,8 @@ body {
     grid-row: 3;
     grid-column: 2 / span 4;
     text-align: center;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 
 .heading {
@@ -126,4 +128,21 @@ font-style: normal;
     background-color: #ffcb77;
     padding: 30px;
     margin: 10px;
+}
+
+.table-center {
+  display: flex;
+  justify-content: center; 
+}
+
+.btn-secondary {
+    background-color: #17c3b2;
+    color: black;
+    border-color: #17c3b2;
+}
+
+.btn-secondary:hover {
+    background-color: #429cbc;
+    border-color: #429cbc;
+    color: black;
 }

@@ -5,74 +5,70 @@ function greet(){
 
     fname = document.getElementById("fname").value;
 
-greetParagraph.innerHTML = "Greetings"  + fname +
- "";
+greetParagraph.innerHTML = "Greetings, " + fname + "!";
 }
 
-function trivia1(){
+function question1(){
     let triviaAnswer = document.getElementById("trivia1-answer");
 
-    // get values from form
-    let chocolateSelected = document.getElementById("chocolate").checked;
+    let oneSelected = document.getElementById("3076").checked;
 
-    let tunaSelected = document.getElementById("tuna").checked;
+    let twoSelected = document.getElementById("5391").checked;
 
-    let honeySelected = document.getElementById("honey").checked;
+    let threeSelected = document.getElementById("2201").checked;
 
-    //give result based on what they selected
     
-    if(chocolateSelected) {
+    if(oneSelected) {
         triviaAnswer.innerHTML =fname + ", you are wrong."
     }
-    else if (tunaSelected) {
+    else if (twoSelected) {
         triviaAnswer.innerHTML = fname + ", you are wrong."
 
     }
-    else if (honeySelected){
+    else if (threeSelected){
         triviaAnswer.innerHTML = fname + ", you are correct!"
     }
 
 }
 
-function onelie(){
-    let triviaAnswer = document.getElementById("twotruths");
+function hours(){
+    let triviaAnswer = document.getElementById("hours");
 
     
-    let brotherSelected = document.getElementById("brother").checked;
-    let catSelected = document.getElementById("cat").checked;
-    let sisterSelected = document.getElementById("sister").checked;
+    let nineSelected = document.getElementById("nine").checked;
+    let tenSelected = document.getElementById("ten").checked;
+    let eightSelected = document.getElementById("eight").checked;
 
-    if(sisterSelected) {
-        triviaAnswer.innerHTML =fname + ", you are wrong. I have a younger sister."
+    if(nineSelected) {
+        triviaAnswer.innerHTML =fname + ", you are wrong."
     }
-    else if (catSelected) {
-        triviaAnswer.innerHTML = fname + ", you are wrong. I do have three cats, their names are Cleo, Tuffy, and Hallie."
+    else if (eightSelected) {
+        triviaAnswer.innerHTML = fname + ", you are wrong."
 
     }
-    else if (brotherSelected){
-        triviaAnswer.innerHTML = fname + ", you are correct! I don't have a brother."
+    else if (tenSelected){
+        triviaAnswer.innerHTML = fname + ", you are correct!"
     }
 
 }
 
-function onelie2(){
-    let triviaAnswer = document.getElementById("twotruths2");
+function home(){
+    let triviaAnswer = document.getElementById("home");
 
-    let tateSelected = document.getElementById("tate").checked;
-    let purpleSelected = document.getElementById("purple").checked;
-    let burgerSelected = document.getElementById("burger").checked;
+    let yesSelected = document.getElementById("yes").checked;
+    let noSelected = document.getElementById("no").checked;
+
 
   
-    if(tateSelected) {
-        triviaAnswer.innerHTML =fname + ", you are wrong. My favorite song of her's is Rubberband."
+    if(yesSelected) {
+        triviaAnswer.innerHTML =fname + ", you are correct. We do have home items, look on the home item page to see what we have."
     }
-    else if (purpleSelected) {
-        triviaAnswer.innerHTML = fname + ", you are wrong. I love purple."
+    else if (noSelected) {
+        triviaAnswer.innerHTML = fname + ", you are wrong. We do have home items, look on the home item page to see what we have."
 
     }
-    else if (burgerSelected){
-        triviaAnswer.innerHTML = fname + ", you are correct! My favorite food is Pizza."
-    }
+    
+    
 
 }
 
