@@ -84,9 +84,12 @@ body {
     justify-self: center;
 }
 
+
+
 .carousel-item img {
     object-fit: cover;
     width: 1000px;
+    border-radius: 15px;
 }
 
 
@@ -154,4 +157,13 @@ font-style: normal;
 div.box {
     border-radius: 30px;
     background-color: #ffcb77;
+}
+
+.quizbox {
+    background-color: #ffcb77;
+    width: 500px;
+    border: 5px solid  #429cbc;
+    padding: 50px;
+    margin: 20px auto;
+    border-radius: 20px;
 }
